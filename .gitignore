@@ -40,3 +40,8 @@ tmp
 test-ledger/
 .anchor/
 target/
+*.so
+*.keypair.json
+
+# Lock files (optional - keep pnpm-lock.yaml if you want reproducible builds)
+# pnpm-lock.yaml
