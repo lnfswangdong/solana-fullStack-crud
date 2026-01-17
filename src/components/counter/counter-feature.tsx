@@ -11,6 +11,7 @@ export default function CounterFeature() {
   const { publicKey } = useWallet()
   const { programId } = useCounterProgram()
 
+  // className is 
   return publicKey ? (
     <div>
       <AppHero
